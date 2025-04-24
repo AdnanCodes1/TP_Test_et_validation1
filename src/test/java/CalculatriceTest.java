@@ -33,7 +33,7 @@ public class CalculatriceTest {
     }
 
     @Test
-    void testDivisionWithInfinity() {
+    void testDivisionWithInfinit() {
         assertThrows(ArithmeticException.class, () -> calc.division(10.0, 0.0));
     }
 
